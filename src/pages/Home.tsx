@@ -11,13 +11,15 @@ const Home = () => {
       
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-slate-800 to-blue-900"></div>
-        
-        {/* Background Pattern */}
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute inset-0" style={{
-           backgroundImage: `url("https://images.pexels.com/photos/273209/pexels-photo-273209.jpeg")`,
-        }}></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-slate-800 to-blue-900">
+          <div 
+            className="absolute inset-0 opacity-20"
+            style={{
+              backgroundImage: `url("https://images.pexels.com/photos/273209/pexels-photo-273209.jpeg")`,
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+            }}
+            ></div>
         </div>
         
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-20">
