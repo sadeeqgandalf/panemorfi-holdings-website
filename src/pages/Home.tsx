@@ -17,8 +17,7 @@ const Home = () => {
         <div className="absolute inset-0 opacity-10">
           <div className="absolute inset-0" style={{
            backgroundImage: `url("https://images.pexels.com/photos/273209/pexels-photo-273209.jpeg")`,
-
-          }}></div>
+        }}></div>
         </div>
         
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-20">
